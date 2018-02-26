@@ -9,3 +9,9 @@ build
 dist
 smalisca.egg-info
 **tmp**
+
+# IDEA
+.idea/
+
+# PyEnv
+.python-version
