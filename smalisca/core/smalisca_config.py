@@ -48,7 +48,7 @@ PROJECT_VERSION = smalisca.__version__
 PROJECT_BANNER = PROJECT_NAME + " " + PROJECT_VERSION + "-" + PROJECT_DESC
 PROJECT_URL = "http://nullsecurity.net, http://{blog,www}.dornea.nu"
 PROJECT_MAIL = "info AEEET dornea DOT nu"
-PROJECT_CONF_PATH = os.path.join(os.path.dirname(__file__), os.path.pardir, "/data/config/config.conf")
+PROJECT_CONF_PATH = os.path.join(os.path.dirname(__file__), "../data/config/config.conf")
 PROJECT_CONF = smalisca.get_file(PROJECT_CONF_PATH)
 
 
